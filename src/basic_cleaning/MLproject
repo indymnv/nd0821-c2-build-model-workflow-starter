@@ -6,27 +6,27 @@ entry_points:
     parameters:
 
       input_artifact:
-        description: ## ADD DESCRIPTION
+        description: Is the data as an artifact
         type: string
 
       output_artifact:
-        description: ## ADD DESCRIPTION
+        description: clean data as an artifact
         type: string
 
       output_type:
-        description: ## ADD DESCRIPTION
+        description: Type of output it will release
         type: string
 
       output_description:
-        description: ## ADD DESCRIPTION
+        description: Is the description of the output
         type: string
 
       min_price:
-        description: ## ADD DESCRIPTION
+        description: minimal price between boundaries
         type: Float
 
       max_price:
-        description: ## ADD DESCRIPTION
+        description: Maximal price between boundaries
         type: Float
 
 
